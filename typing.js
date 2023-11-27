@@ -38,10 +38,10 @@ header.addEventListener('mouseover', function () {
         let q =  total()
         const x = window.innerWidth - rand.offsetWidth,
             y = window.innerHeight - rand.offsetHeight,
-            left = Math.round(Math.random() * x),
-            right = Math.round(Math.random() * y);
-        rand.style.marginLeft = `${left}px`
-        rand.style.marginTop = `${right}px`
+            l = Math.round(Math.random() * x),
+            r = Math.round(Math.random() * y);
+        rand.style.marginLeft = `${l}px`
+        rand.style.marginTop = `${r}px`
         rand.style.color = `${q}`
         rand.style.transition = `1s`
         // setTimeout(() => {
